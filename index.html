@@ -27,6 +27,29 @@
 	<meta name="twitter:description" content="Devenir photographe était pour moi une évidence." />
 	<meta name="twitter:image" content="https://manu-drk.github.io/Projet-4-nina-carducci.github.io-master/assets/images/slider/edward-cisneros-min.webp" />
 	<meta name="twitter:url" content="https://manu-drk.github.io/Projet-4-nina-carducci.github.io-master/" />
+
+	
+	<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "LocalBusiness",
+			  "name": "Nina Carducci, Photographe professionnelle",
+			  "url": "https://manu-drk.github.io/Projet-4-nina-carducci.github.io-master/",
+			  "telephone": "05 56 67 78 89",
+			  "address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			  },
+		
+			  "openingHours": [
+				"Mo-fr 10:00-19:00",
+						  ],
+			  
+			}
+			</script>
 </head>
 
 
@@ -124,7 +147,7 @@
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" alt="Femme qui rigole" />
 				</div>
 			</div>
-			<div class="quote">
+			<aside class="quote">
 				<figure>
 					<blockquote>
 						<h2 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
@@ -135,7 +158,7 @@
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
-			</div>
+			</aside>
 		</section>
 		<section id="services">
 			<h2 class="title">Mes services</h2>
@@ -194,12 +217,12 @@
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
 					<label for="nom">Nom</label>
-					<input type="text" name="nom" id="nom">
+					<input type="text" name="nom" id="nom" aria-label="nom">
 					<label for="email">Email</label>
-					<input type="email" name="email" id="email">
+					<input type="email" name="email" id="email" aria-label="email">
 					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-					<input type="submit" value="Envoyer" />
+					<input type="submit" value="Envoyer" aria-label="Envoyer"/>
 				</form>
 			</div>
 			<div class="picture right">
