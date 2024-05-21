@@ -97,10 +97,16 @@ body {
 .nav-pills .nav-link {
 	color: #000
 }
+.nav-link:hover {
+	cursor: pointer;
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
+}
+.gallery-item:hover {
+	cursor: pointer;
 }
 .item-column::after{
 	content: "";
